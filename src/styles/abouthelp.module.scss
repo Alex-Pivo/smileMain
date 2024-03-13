@@ -1,0 +1,303 @@
+.abouthelp {
+  width: 100%;
+  height: 1239px;
+
+  background-color: #fbfbfb;
+
+  padding: 200px 44px 0px 44px;
+
+  .container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .title__container {
+      height: 98px;
+      width: 600px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .line {
+        width: 404px;
+        height: 75px;
+        margin-left: 190px;
+        margin-top: -16px;
+
+        position: absolute;
+        z-index: 1;
+
+        background: url("../../public/lines/line2.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+
+      .title {
+        position: relative;
+        z-index: 2;
+        font-family: "Rubik", sans-serif;
+        font-size: 48px;
+        font-weight: 800;
+        color: #1d1d1d;
+        line-height: 110%;
+        letter-spacing: -1px;
+      }
+      .text {
+        font-family: "Commissioner", sans-serif;
+        color: #1d1d1d;
+        line-height: 20px;
+
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+      }
+    }
+
+    .about__container {
+      width: 100%;
+      height: 877px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .up {
+        width: 100%;
+        height: 401px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+          width: 49%;
+          height: 100%;
+          .info {
+            width: 100%;
+            height: 401px;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            .title {
+              font-family: "Rubik", sans-serif;
+              font-size: 40px;
+              font-weight: 800;
+              color: #1d1d1d;
+              line-height: 110%;
+              letter-spacing: -1px;
+            }
+            .description {
+              font-family: "Commissioner", sans-serif;
+              color: #374151;
+              line-height: 140%;
+
+              font-size: 24px;
+              font-weight: 500;
+            }
+            .btns {
+              width: 382px;
+              height: 42px;
+
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: space-between;
+
+              .btnOne {
+                width: 201px;
+                height: 100%;
+                border: 1px solid #5380a1;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50px;
+              }
+              .btnTwo {
+                width: 171px;
+                height: 100%;
+                border: 1px solid #5380a1;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 50px;
+              }
+              .btnOne,
+              .btnTwo {
+                font-family: "Commissioner", sans-serif;
+                color: #374151;
+                line-height: 140%;
+
+                font-size: 16px;
+                font-weight: 600;
+
+                .marker {
+                  background-image: url("../../public/star.png");
+                  width: 18px;
+                  height: 16px;
+
+                  margin-left: 10px;
+                }
+              }
+            }
+
+            .btn {
+              width: 463px;
+              height: 76px;
+              background-color: #649612;
+              border-radius: 12px;
+
+              font-family: "Commissioner", sans-serif;
+              color: #fbfbfb;
+              line-height: 140%;
+
+              font-size: 32px;
+              font-weight: 700;
+
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+
+              .arrow {
+                width: 21.5px;
+                height: 29.33px;
+
+                margin-right: 7px;
+
+                background-image: url("../../public/Vector.png");
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+              }
+            }
+          }
+        }
+        .right {
+          width: 49%;
+          height: 100%;
+          background: url("../../public/group.png");
+          background-size: cover;
+          background-position: center;
+          border-radius: 20px;
+
+          .fire {
+            width: 67px;
+            height: 107px;
+
+            background: url("../../public/lines/fire.png");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            left: -30px;
+            top: 310px;
+          }
+        }
+      }
+      .down {
+        width: 100%;
+        height: 332px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .left {
+          width: 49%;
+          height: 100%;
+          background: url("../../public/house.png");
+          background-size: cover;
+          background-position: center;
+          border-radius: 20px;
+
+          .star {
+            width: 86px;
+            height: 68px;
+
+            background: url("../../public/lines/star.png");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            left: -30px;
+            top: 294px;
+          }
+        }
+        .right {
+          width: 49%;
+          height: 100%;
+
+          .info {
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: space-between;
+            .title {
+              font-family: "Rubik", sans-serif;
+              font-size: 40px;
+              font-weight: 800;
+              color: #1d1d1d;
+              line-height: 110%;
+              letter-spacing: -1px;
+            }
+            .description {
+              font-family: "Commissioner", sans-serif;
+              color: #374151;
+              line-height: 140%;
+
+              font-size: 24px;
+              font-weight: 500;
+            }
+
+            .btn {
+              width: 463px;
+              height: 76px;
+              background-color: #649612;
+              border-radius: 12px;
+
+              font-family: "Commissioner", sans-serif;
+              color: #fbfbfb;
+              line-height: 140%;
+
+              font-size: 32px;
+              font-weight: 700;
+
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: center;
+
+              .arrow {
+                width: 21.5px;
+                height: 29.33px;
+
+                margin-right: 7px;
+
+                background-image: url("../../public/Vector.png");
+                background-position: center;
+                background-size: contain;
+                background-repeat: no-repeat;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

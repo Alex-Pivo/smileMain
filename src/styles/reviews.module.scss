@@ -1,0 +1,233 @@
+.reviews {
+  width: 100%;
+  height: 766px;
+  background-color: #fbfbfb;
+
+  padding: 200px 44px 0px 44px;
+
+  .container {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    .title__container {
+      height: 98px;
+      width: 524px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .title {
+        font-family: "Rubik", sans-serif;
+        font-size: 48px;
+        font-weight: 800;
+        color: #1d1d1d;
+        line-height: 110%;
+        letter-spacing: -1px;
+      }
+      .text {
+        font-family: "Commissioner", sans-serif;
+        color: #1d1d1d;
+        line-height: 20px;
+
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+      }
+    }
+
+    .main {
+      width: 100%;
+      height: 404px;
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+
+      .slider {
+        width: 100%;
+        height: 308px;
+
+        .slide {
+          width: 100%;
+          height: 100%;
+
+          padding: 40px 40px 37px 40px;
+
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+
+          .talk {
+            width: 79px;
+            height: 54px;
+
+            position: absolute;
+            margin-left: 600px;
+            margin-top: -260px;
+
+            background: url("../../public/lines/talk.png");
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+          }
+
+          .info {
+            width: 270px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            .text {
+              font-family: "Commissioner", sans-serif;
+              color: #1d1d1d;
+              line-height: 135%;
+              text-align: left;
+
+              font-size: 24px;
+              font-weight: 500;
+
+              margin-bottom: 10px;
+            }
+            .user {
+              width: 100%;
+              height: 67px;
+
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              justify-content: flex-start;
+
+              .avatar {
+                width: 67px;
+                height: 67px;
+                background: url("../../public/rew/avatar1.png");
+                background-position: center;
+                background-size: cover;
+
+                margin-right: 10px;
+              }
+
+              .box {
+                width: 142px;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-between;
+
+                .name {
+                  font-family: "Poppins", sans-serif;
+                  font-size: 22px;
+                  font-weight: 600;
+                  color: #2d264b;
+                }
+                .date {
+                  font-family: "Poppins", sans-serif;
+                  font-size: 16px;
+                  font-weight: 400;
+                  color: #787878;
+                }
+              }
+            }
+          }
+
+          .video {
+            width: 275px;
+            height: 100%;
+
+            border-radius: 16px;
+
+            background: url("../../public/rew/photo1.png");
+            background-size: cover;
+            background-position: center;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .play {
+              background: url("../../public/rew/Play.png");
+              width: 91px;
+              height: 91px;
+              background-position: center;
+              background-size: cover;
+            }
+          }
+        }
+
+        .slideNot {
+          width: 100%;
+          height: 100%;
+
+          padding: 20px 21px 0px 21px;
+
+          .text {
+            font-family: "Poppins", sans-serif;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 130%;
+            color: #374151;
+            text-align: left;
+          }
+        }
+      }
+
+      .btns__container {
+        width: 156px;
+        height: 60px;
+        position: relative;
+        z-index: 10;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .prev {
+          width: 60px;
+          height: 60px;
+          border-radius: 50px;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .arrow {
+            width: 24px;
+            height: 22px;
+            background: url("../../public/arrow.png");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+          }
+        }
+        .next {
+          width: 60px;
+          height: 60px;
+          border-radius: 50px;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .arrow {
+            width: 24px;
+            height: 22px;
+            background: url("../../public/arrow.png");
+            background-position: center;
+            background-size: contain;
+            background-repeat: no-repeat;
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+  }
+}
